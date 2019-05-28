@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- Search / will display always -->
+    <item android:id="@+id/action_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="search"
+        />
+
+    <!-- Location Found -->
+    <item android:id="@+id/action_location_found"
+        android:icon="@android:drawable/ic_dialog_map"
+        android:title="location_found"
+         />
+
+    <!-- Refresh -->
+    <item android:id="@+id/action_refresh"
+        android:icon="@android:drawable/ic_menu_recent_history"
+        android:title="refresh"
+        />
+
+    <!-- Help -->
+    <item android:id="@+id/action_help"
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="help"
+       />
+
+    <!-- Check updates -->
+    <item android:id="@+id/action_check_updates"
+        android:icon="@android:drawable/star_big_on"
+        android:title="updates"
+       />
+</menu>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dvdroid.droidpoint">
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.READ_CONTACTS"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity2" />
+        <activity
+            android:name=".SharedPrefs"
+            android:label="@string/title_activity_menu_option"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".Dialog_Actvity2"
+            android:theme="@android:style/Theme.Dialog"></activity>
+        <activity
+            android:name=".Dialog_Actvity3"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"></activity>
+        <activity
+            android:name=".Dialog_Actvity4"
+            android:theme="@android:style/Theme.Translucent"></activity>
+        <activity
+            android:name=".Dialog_Actvity5"
+            android:theme="@android:style/Theme.Holo.Light.DarkActionBar"></activity>
+        <activity android:name=".NotificationView"></activity>
+        <activity android:name=".CardViewActivity"></activity>
+        <activity android:name=".Search_Activity"></activity>
+        <activity android:name=".Admob_Ads"></activity>
+        <activity android:name=".HomePage"></activity>
+        <activity android:name=".Activity1"></activity>
+        <activity android:name=".Activity2"></activity>
+        <activity android:name=".Media"></activity>
+        <activity android:name=".MenuOption"></activity>
+        <activity android:name=".Dialog_Actvity"></activity>
+        <activity android:name=".TabLayout"></activity>
+        <activity android:name=".ExpandableListViewActivity"></activity>
+        <activity android:name=".WebViewActivity"></activity>
+        <activity android:name=".ListViewActivity"></activity>
+        <activity android:name=".SwipeTabActivity"></activity>
+        <activity android:name=".Sharing"></activity>
+        <activity android:name=".Contact_Gallery_Access"></activity>
+        <activity android:name=".DataBaseActivity"></activity>
+        <activity android:name=".Get_Notification"></activity>
+
+    </application>
+
+
+</manifest>

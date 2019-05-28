@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Tutorial 3"
+        android:textColor="#FF0000"
+        android:textSize="25dp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="This is the Second Activity"
+        android:layout_gravity="center"/>
+    <EditText
+        android:id="@+id/stringText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter anything" />
+    <Button
+        android:id="@+id/prev"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:text="Prev Activity"
+        android:layout_height="wrap_content"
+
+        />
+</LinearLayout>
